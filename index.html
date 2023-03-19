@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/images/favicon-interstellar1.svg" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Conversor de Anos Luz</title>
+</head>
+<body>
+
+    <div class="container">
+
+        <header>
+            <h1>
+                Conversor de Anos Luz
+            </h1>
+    
+        </header>
+    
+        <main>
+
+            <div id="mainContent">
+
+                <h2 id="title">
+                    Preencha os campos abaixo para converter a distância de anos luz em metros.
+                </h2>
+        
+                <form action="#" id="form">
+        
+                    <div class="form-input">
+                        <label for="name">Seu nome:</label>
+                        <input type="text" name="name" id="name">
+                    </div>
+                    
+                    <div class="form-input">
+                        <label for="light-years">Anos Luz:</label>
+                        <input type="number" name="light-years" id="lightYears">
+                    </div>
+        
+                    <button type="submit">
+                        Converter
+                    </button>
+        
+                </form>
+
+            </div>
+
+            <div id="resultContent">
+
+                <h2 id="titleResult">
+                    Olá <span id="user">Usuário</span> o seu Resultado é:
+                </h2>
+    
+                <div id="result">
+                    <p id="resultText">
+                        <span id="lightYearsResult">0</span> anos luz equivale a <span id="meters">0</span> em metros.
+                    </p>
+
+                    <button type="button" onclick="goBack()">
+                            Voltar
+                    </button>
+
+                </div>
+
+            </div>
+
+        </main>
+    
+        <footer>
+
+            <p>
+                © <a target="_blank" href="https://github.com/phedrofelipe">Pedro Felipe Silva de Sousa</a> | 18/03/2023
+            </p>
+            
+        </footer>
+
+    </div>
+
+    <script src="./assets/scripts/script.js"></script>
+    
+</body>
+</html>
