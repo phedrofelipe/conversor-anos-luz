@@ -7,7 +7,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: "Roboto Mono", monospace;
-    background-image: url(/assets/images/interstellar-brackground-image.png);
+    background-image: url(../images/interstellar-brackground-image.png);
     background-color: #000000;
     background-size: cover;
     background-position: center top;
@@ -115,9 +115,10 @@ footer a {
 }
 
 #resultContent #result {
-    margin: 30px 40px;
+    margin: 30px 30px 50px;
 }
 
 #resultContent #result #resultText {
+    font-size: 16px;
     text-align: center;
 }
