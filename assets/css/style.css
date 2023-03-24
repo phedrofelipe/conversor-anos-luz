@@ -122,3 +122,13 @@ footer a {
     font-size: 16px;
     text-align: center;
 }
+
+
+
+@media (max-width: 768px) {
+    
+    main {
+        height: 40vh;
+        width: 380px;
+    }
+}
